@@ -1,0 +1,104 @@
+#name-icon{
+    font-size:3vw;
+}
+body{
+    background-color: #CA6AFB; 
+    color: #F2F2F2;
+}
+#contactame{
+    border-style: solid;
+    border-width: 4px;
+    border-color: #F2F2F2;
+    border-radius: 1rem;
+    padding: 0;
+}
+#contactame-title{
+    font-size: 4vw;
+    border-style: solid;
+    border-color: #F2F2F2;
+    border-width: 0 0 4px 0;
+}
+.input-form{
+    background-color: #CA6AFB;
+    border-color: #F2F2F2;
+    border-radius: 0;
+    border-width: 0 0 3px 0;
+    color:  #F2F2F2;
+    font-size: 3vh;
+}
+#message{
+    color: #CA6AFB;
+}
+.input-label{
+    font-size: 3vh;
+}
+#icono-barra{
+    height:10vw;
+    width:100%;
+}
+#foto-perfil{
+    width: 16vw;
+    border-color: #3F3D56;
+    border-style: solid;
+    border-width: 1vh;
+}
+#barra{
+    background-color: #3F3D56;
+}
+#github-icono{
+    animation-duration: 6s;
+    animation-name: vibration;
+    animation-iteration-count: infinite;
+}
+#description{
+    padding:2%;
+}
+#description-work{
+    font-size: 2.3vw;
+}
+
+#button-enviar{
+    background-color: #CA6AFB;
+    width: 100%;
+    font-size: 3vw;
+    border-style: solid;
+    border-radius: 1rem;
+    border-color: #F2F2F2;
+    border-width: 0.3vw;
+    color: #F2F2F2;
+}
+
+#button-enviar:hover{
+    background-color: #F2F2F2;
+    color: #CA6AFB;
+    transition: 0.4s;
+}
+#imagen-proyecto{
+    width:100%;
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: black; 
+    border-radius: 1rem;
+}
+
+@keyframes vibration {
+    10% {
+        transform: rotate(20deg);
+    }
+
+    20% {
+        transform: rotate(-20deg);
+    }
+    30% {
+        transform: rotate(10deg);
+    }
+    40% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
